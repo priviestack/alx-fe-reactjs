@@ -5,6 +5,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SearchBar from './components/SearchBar'
+import Search from './components/Search';
+import './App.css'
+
+function App() {
+  return (
+    <div className="app">
+      <h1>GitHub User Search</h1>
+      <Search />
+    </div>
+  );
+}
+
 
 function App() {
   const [user, setUser] = useState(null);

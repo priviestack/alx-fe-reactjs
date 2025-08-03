@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search-container {
+  margin-top: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 300px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+.user-card {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+}
